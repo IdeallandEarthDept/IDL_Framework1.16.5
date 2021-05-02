@@ -50,7 +50,7 @@ local function GenItem(_typeName, _itemName)
 	local path = string.format("src\\main\\resources\\assets\\%s\\models\\item\\%s.json", modName, _itemName);
 	outFile = io.open(path,"w");
 
-	local content = string.format('{"parent": "item/handheld","textures": {"layer0":"%s:items/%s/%s"}}\n', modName, _typeName, _itemName );
+	local content = string.format('{"parent": "item/handheld","textures": {"layer0":"%s:item/%s/%s"}}\n', modName, _typeName, _itemName );
 	outFile:write(content);
 
 	outFile:close();

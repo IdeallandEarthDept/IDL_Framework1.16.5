@@ -11,5 +11,7 @@ public class ItemRegistry {
 
     public static final RegistryObject<Item> testIngot = ITEMS.register("test_ingot", TestIngot::new);
 
-    public static final BaseItemIDF testIngot2 = new TestIngotAuto("test_ingot_auto");
+    //public static final BaseItemIDF testIngot2 = new TestIngotAuto("test_ingot_auto");
+    public static final RegistryObject<Item> testIngot2 = ITEMS.register("test_ingot_auto", BaseItemIDF::new);
+    public static final RegistryObject<Item> food = ITEMS.register("test_food", BaseItemFood::new);
 }

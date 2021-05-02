@@ -4,7 +4,7 @@ import net.minecraft.item.ItemGroup;
 
 public class TestIngotAuto extends BaseItemIDF {
 
-    public TestIngotAuto(String name) {
-        super(name);
+    public TestIngotAuto() {
+        super();
     }
 }
