@@ -1,7 +1,7 @@
 package com.deeplake.idlframework;
 
 import com.deeplake.idlframework.registry.RegistryManager;
-import com.deeplake.idlframework.worldgen.OreGeneration;
+import com.deeplake.idlframework.worldgen.infra.InitWorldGen;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.fml.common.Mod;
@@ -12,7 +12,7 @@ public class IdlFramework {
 
     public IdlFramework(){
         RegistryManager.RegisterAll();
-        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, InitWorldGen::onBiomeLoading);
         MinecraftForge.EVENT_BUS.register(this);
     }
 }

@@ -1,4 +1,4 @@
-package com.deeplake.idlframework.worldgen;
+package com.deeplake.idlframework.worldgen.infra;
 
 import com.deeplake.idlframework.registry.BlockRegistry;
 import net.minecraft.block.BlockState;
@@ -29,7 +29,7 @@ public class OreGeneration {
     public static void generateOre(BiomeGenerationSettingsBuilder settings, RuleTest fillerType, BlockState state, int veinSize, int minY, int maxY, int countMax)
     {
         //forge name: event.getGeneration().withFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
-        // Feature.ORE.withConfiguration(new OreFeatureConfig(xxx).withPlacement(xxx)));
+        // Feature.ORE.withConfiguration(new OreFeatureConfig(xxx).withPlacement(xxx).square().countRandom(xx)));
         settings.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
                 Feature.ORE.configured(new OreFeatureConfig(fillerType, state, veinSize))
                         .decorated(Placement.RANGE.configured(new TopSolidRangeConfig(minY, 0, maxY)))
