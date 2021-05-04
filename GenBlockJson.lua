@@ -18,7 +18,7 @@ local function GenModelBlock()
 	outFile:write('{\n');
 	outFile:write('\t\"parent\": \"block/cube_all\",\n');
 	outFile:write('\t\"textures\": {\n');
-	local content = string.format("\t\t\"all\": \"%s:blocks/%s\"\n", modName,blockName );
+	local content = string.format("\t\t\"all\": \"%s:block/%s\"\n", modName,blockName );
 	outFile:write(content);
 	outFile:write('\t}\n');
 	outFile:write('}\n');
@@ -68,8 +68,11 @@ local function GenTCG(_rarity, _itemName)
 end
 
 
-GenItem("misc", "test_ingot");
-GenItem("misc", "test_ingot_auto");
+--GenItem("armor", "obsidian_helmet");
+--GenItem("armor", "obsidian_chestplate");
+--GenItem("armor", "obsidian_leggings");
+--GenItem("armor", "obsidian_boots");
+GenBlock("test_block");
 
 --
 --for i = 0, 7 do

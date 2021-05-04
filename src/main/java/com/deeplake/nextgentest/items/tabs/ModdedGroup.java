@@ -1,6 +1,5 @@
 package com.deeplake.nextgentest.items.tabs;
 
-import com.deeplake.nextgentest.items.ItemRegistry;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
