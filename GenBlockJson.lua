@@ -30,7 +30,7 @@ local function GenBlockState()
 	outFile = io.open(path,"w");
 	outFile:write('{\n');
 	outFile:write('\t\"variants\": {\n');
-	local content = string.format("\t\t\"normal\": { \"model\": \"%s:%s\" }\n", modName,blockName );
+	local content = string.format("\t\t\"\": { \"model\": \"%s:block/%s\" }\n", modName,blockName );
 	outFile:write(content);
 	outFile:write('\t}\n');
 	outFile:write('}\n');

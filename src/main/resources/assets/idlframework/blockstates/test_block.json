@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "idlframework:test_block" }
+		"": { "model": "idlframework:block/test_block" }
 	}
 }

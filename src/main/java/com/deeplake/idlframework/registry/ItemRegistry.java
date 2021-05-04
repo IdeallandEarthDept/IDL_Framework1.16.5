@@ -26,6 +26,4 @@ public class ItemRegistry {
     public static final RegistryObject<Item> obsidianChestplate = ITEMS.register("obsidian_chestplate", () -> new ArmorItem(TEST, EquipmentSlotType.CHEST, (new Item.Properties()).tab(TabList.MISC_GROUP)));
     public static final RegistryObject<Item> obsidianLeggings = ITEMS.register("obsidian_leggings", () -> new ArmorItem(TEST, EquipmentSlotType.LEGS, (new Item.Properties()).tab(TabList.MISC_GROUP)));
     public static final RegistryObject<Item> obsidianBoots = ITEMS.register("obsidian_boots", () -> new ArmorItem(TEST, EquipmentSlotType.FEET, (new Item.Properties()).tab(TabList.MISC_GROUP)));
-
-    public static final RegistryObject<Item> obsidianBlock = ITEMS.register("test_block", () -> new BlockItem(BlockRegistry.obsidianBlock.get(), new Item.Properties().tab(TabList.MISC_GROUP)));
 }
