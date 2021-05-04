@@ -4,7 +4,6 @@ import com.deeplake.nextgentest.IdlFramework;
 import com.deeplake.nextgentest.items.BaseItemFood;
 import com.deeplake.nextgentest.items.BaseItemIDF;
 import com.deeplake.nextgentest.items.BaseItemSword;
-import com.deeplake.nextgentest.items.TestIngot;
 import com.deeplake.nextgentest.items.tabs.TabList;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
