@@ -1,6 +1,6 @@
-package com.deeplake.nextgentest.items.infra;
+package com.deeplake.idlframework.items.infra;
 
-import com.deeplake.nextgentest.registry.ItemRegistry;
+import com.deeplake.idlframework.registry.ItemRegistry;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 

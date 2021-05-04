@@ -1,4 +1,4 @@
-package com.deeplake.nextgentest.items.tabs;
+package com.deeplake.idlframework.items.tabs;
 
 import net.minecraft.item.ItemGroup;
 

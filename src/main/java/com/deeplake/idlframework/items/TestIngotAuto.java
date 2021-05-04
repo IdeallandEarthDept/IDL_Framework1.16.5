@@ -1,6 +1,4 @@
-package com.deeplake.nextgentest.items;
-
-import net.minecraft.item.ItemGroup;
+package com.deeplake.idlframework.items;
 
 public class TestIngotAuto extends BaseItemIDF {
 

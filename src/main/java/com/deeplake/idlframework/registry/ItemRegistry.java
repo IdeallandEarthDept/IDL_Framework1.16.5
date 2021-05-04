@@ -1,10 +1,10 @@
-package com.deeplake.nextgentest.registry;
+package com.deeplake.idlframework.registry;
 
-import com.deeplake.nextgentest.IdlFramework;
-import com.deeplake.nextgentest.items.BaseItemFood;
-import com.deeplake.nextgentest.items.BaseItemIDF;
-import com.deeplake.nextgentest.items.BaseItemSword;
-import com.deeplake.nextgentest.items.tabs.TabList;
+import com.deeplake.idlframework.IdlFramework;
+import com.deeplake.idlframework.items.BaseItemFood;
+import com.deeplake.idlframework.items.BaseItemIDF;
+import com.deeplake.idlframework.items.BaseItemSword;
+import com.deeplake.idlframework.items.tabs.TabList;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.BlockItem;
@@ -13,7 +13,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import static com.deeplake.nextgentest.items.infra.BaseArmorTier.TEST;
+import static com.deeplake.idlframework.items.infra.BaseArmorTier.TEST;
 
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, IdlFramework.MOD_ID);

@@ -1,4 +1,4 @@
-package com.deeplake.nextgentest.items;
+package com.deeplake.idlframework.items;
 
 import net.minecraft.item.Food;
 import net.minecraft.item.ItemGroup;

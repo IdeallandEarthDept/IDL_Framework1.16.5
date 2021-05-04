@@ -1,4 +1,4 @@
-package com.deeplake.nextgentest.items;
+package com.deeplake.idlframework.items;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -16,9 +16,9 @@ public class BaseItemIDF extends Item {
         properties = p_i48487_1_;
     }
 
-//    public void register()
+//    public void registerWithItem()
 //    {
-//        ItemRegistry.ITEMS.register(name, () -> new BaseItemIDF(name, properties));
+//        ItemRegistry.ITEMS.registerWithItem(name, () -> new BaseItemIDF(name, properties));
 //    }
 //
 //    public BaseItemIDF(String name) {

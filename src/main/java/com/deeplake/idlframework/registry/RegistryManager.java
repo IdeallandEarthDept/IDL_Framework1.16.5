@@ -1,4 +1,4 @@
-package com.deeplake.nextgentest.registry;
+package com.deeplake.idlframework.registry;
 
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 

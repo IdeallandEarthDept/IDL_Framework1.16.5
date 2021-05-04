@@ -1,4 +1,4 @@
-package com.deeplake.nextgentest.blocks;
+package com.deeplake.idlframework.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

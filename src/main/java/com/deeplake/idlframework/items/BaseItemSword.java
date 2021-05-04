@@ -1,7 +1,7 @@
-package com.deeplake.nextgentest.items;
+package com.deeplake.idlframework.items;
 
-import com.deeplake.nextgentest.items.infra.BaseItemTier;
-import com.deeplake.nextgentest.items.tabs.TabList;
+import com.deeplake.idlframework.items.infra.BaseItemTier;
+import com.deeplake.idlframework.items.tabs.TabList;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;

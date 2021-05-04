@@ -1,9 +1,8 @@
-package com.deeplake.nextgentest.items.infra;
+package com.deeplake.idlframework.items.infra;
 
-import com.deeplake.nextgentest.registry.ItemRegistry;
+import com.deeplake.idlframework.registry.ItemRegistry;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
-import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 import net.minecraft.util.SoundEvent;
